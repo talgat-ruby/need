@@ -1,0 +1,29 @@
+.radio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.radio input[type="radio"] {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.radio input[type="radio"] + label i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.4rem;
+  height: 1.4rem;
+  border: 0.4rem solid #d2691e;
+  border-radius: 50%;
+}
+
+.radio input[type="radio"]:checked + label i:before {
+  content: '';
+  display: flex;
+  width: 0.8rem;
+  height: 0.8rem;
+  background-color: #d2691e;
+  border-radius: 50%;
+}

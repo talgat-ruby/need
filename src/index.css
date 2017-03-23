@@ -1,3 +1,14 @@
+@font-face {
+  font-family: GeometriaLF-Heavy;
+  src: url('media/fonts/GeometriaLF-Heavy/GeometriaLF-Heavy.eot'); /* IE9 Compat Modes */
+  src: url('media/fonts/GeometriaLF-Heavy/GeometriaLF-Heavy.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('media/fonts/GeometriaLF-Heavy/GeometriaLF-Heavy.woff') format('woff'), /* Modern Browsers */
+       url('media/fonts/GeometriaLF-Heavy/GeometriaLF-Heavy.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('media/fonts/GeometriaLF-Heavy/GeometriaLF-Heavy.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/* rgb(245, 8, 80) */
+
 body {
   margin: 0;
   padding: 0;

@@ -1,0 +1,47 @@
+.sign-up {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  background-color: rgb(169, 21, 21);
+  color: #fff;
+}
+
+.sign-up h2 {
+  font-size: 1.75rem;
+}
+
+.sign-up .social_network-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sign-up .social_network-container > span {
+  font-size: 0.75rem;
+}
+
+.sign-up .logos {
+  display: flex;
+  justify-content: space-between;
+  width: 7.5rem;
+  margin-top: 0.625rem;
+}
+
+.sign-up .logos svg {
+  height: 3rem;
+  width: 3rem;
+}
+
+.sign-up form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+  width: 80%;
+}
+
+.sign-up form .button {
+  margin-top: 2rem;
+}

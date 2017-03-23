@@ -1,0 +1,21 @@
+{
+  "ru": {
+    "buttons": {
+      "log_in": "ЗАРЕГЕСТРИРОВАТЬСЯ",
+      "pass_test": "ПРОЙТИ ТЕСТ",
+      "submit": "SUBMIT"
+    },
+    "placeholder": {
+      "email": "Email",
+      "location": "Город",
+      "name": "Имя",
+      "tel": "Телефон"
+    },
+    "text": {
+      "find_yourself": "УЗНАЙ СЕБЯ",
+      "registration": "РЕГИСТРАЦИЯ",
+      "sn_sign_up": "ВХОД ЧЕРЕЗ СОЦ СЕТИ",
+      "with_maccoffee": "ВМЕСТЕ С MACCOFFEE"
+    }
+  }
+}

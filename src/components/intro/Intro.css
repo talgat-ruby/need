@@ -1,0 +1,61 @@
+.intro {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(169, 21, 21);
+  color:  white;
+}
+
+.intro div:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  max-width: 40%;
+}
+
+.intro .logo {
+  width: 15rem;
+  margin-top: 1.5rem;
+}
+
+.intro h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: GeometriaLF-Heavy, sans-serif;
+  margin-top: 3rem;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+.intro > div:first-child > .button {
+  margin-top: 2rem;
+}
+
+.intro .border {
+  position: fixed;
+  width: 125vw;
+  overflow: hidden;
+  animation: 1s ease-out 0s 1 slideUp;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}

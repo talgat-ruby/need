@@ -1,0 +1,1 @@
+export default (...args) => (...fns) => fns.reduce((nextArg, fn) => [fn(...nextArg)], args);

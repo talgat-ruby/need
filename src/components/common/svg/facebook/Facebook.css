@@ -1,0 +1,24 @@
+#facebook_logo:hover {
+  cursor: pointer;
+}
+
+#facebook_logo rect {
+  fill: #fff;
+  stroke: #ccc;
+  stroke-width: 10;
+  box-sizing: border-box;
+}
+
+#facebook_logo path {
+  fill: #ccc;
+}
+
+#facebook_logo:hover rect {
+  fill:#4D6FA9;
+  stroke: none;
+  stroke-width: 0;
+}
+
+#facebook_logo:hover path {
+  fill: #fff;
+}
