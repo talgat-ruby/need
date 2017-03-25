@@ -1,5 +1,6 @@
 .intro {
   min-height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,25 +8,48 @@
   color:  white;
 }
 
-.intro div:first-child {
+.intro .intro-container {
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
   z-index: 1;
-  max-width: 40%;
+  padding: 4rem 0 12rem 0;
+}
+
+.intro nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5.2rem;
+  width: 100%;
+  height: 3rem;
+}
+
+.intro nav a {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 0.625rem;
+  color: #fff;
+  flex: 1;
+}
+
+.intro nav a:last-child {
+  justify-content: flex-end;
 }
 
 .intro .logo {
-  width: 15rem;
-  margin-top: 1.5rem;
+  height: 100%;
+  width: auto;
 }
 
 .intro h1 {
-  font-size: 3rem;
+  white-space: pre;
+  font-size: 4rem;
   font-weight: 900;
+  margin: 0;
   font-family: GeometriaLF-Heavy, sans-serif;
-  margin-top: 3rem;
   text-shadow: 0 1px 0 #ccc,
                0 2px 0 #c9c9c9,
                0 3px 0 #bbb,
@@ -40,7 +64,71 @@
                0 20px 20px rgba(0,0,0,.15);
 }
 
-.intro > div:first-child > .button {
+.intro h2 {
+  font-size: 2.2rem;
+  margin: 1rem 0 0;
+  white-space: pre;
+  letter-spacing: 0.3rem;
+  color: rgb(254, 254, 254);
+  text-shadow: 1px 1px 0 rgb(200, 200, 200),
+              2px 1px 0 rgb(180, 180, 180),
+              3px 1px 0 rgb(160, 160, 160),
+              4px 1px 0 rgb(140, 140, 140),
+              0 6px 1px rgba(0,0,0,.1),
+              0 0 5px rgba(0,0,0,.1),
+              0 1px 3px rgba(0,0,0,.3),
+              0 3px 5px rgba(0,0,0,.2),
+              0 5px 10px rgba(0,0,0,.25),
+              0 10px 10px rgba(0,0,0,.2),
+              0 20px 20px rgba(0,0,0,.15);              
+}
+
+.intro .text {
+  display: flex;
+  font-size: 0.8125rem;
+  font-weight: bolder;
+}
+
+.intro .text1 {
+  margin-top: 6rem;
+}
+
+.intro .text2 {
+  margin: 1rem 0 6rem 0;
+}
+
+.intro .text3 {
+  margin: 5rem 0 0;
+}
+
+.intro .gifts {
+  margin: 3.2rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.intro .gifts article {
+  display: flex;
+  flex-direction: column;
+  width: calc(33% - 7rem);
+}
+
+.intro .gifts .image-container {
+  width: 100%;
+  margin: auto 0;
+  display: flex;
+}
+
+.intro .gifts img {
+  width: 100%;
+  height: auto;
+}
+
+.intro .gifts span {
+  display: inline-flex;
+  text-align: center;
+  font-size: 0.825rem;
+  font-weight: 100;
   margin-top: 2rem;
 }
 

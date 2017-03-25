@@ -3,7 +3,8 @@
     "buttons": {
       "log_in": "ЗАРЕГЕСТРИРОВАТЬСЯ",
       "pass_test": "ПРОЙТИ ТЕСТ",
-      "submit": "SUBMIT"
+      "submit": "SUBMIT",
+      "participate": "УЧАВСТВОВАТЬ"
     },
     "placeholder": {
       "email": "Email",
@@ -12,10 +13,19 @@
       "tel": "Телефон"
     },
     "text": {
+      "cabinet": "МОЙ КАБИНЕТ",
+      "rules": "ПРАВИЛА УЧАСТИЯ",
       "find_yourself": "УЗНАЙ СЕБЯ",
       "registration": "РЕГИСТРАЦИЯ",
       "sn_sign_up": "ВХОД ЧЕРЕЗ СОЦ СЕТИ",
-      "with_maccoffee": "ВМЕСТЕ С MACCOFFEE"
+      "with_maccoffee": "ВМЕСТЕ С MACCOFFEE",
+      "intro_1": "Выбор кторый мы делаем",
+      "intro_2": "Пройди увлекательный тест от Maccoffee",
+      "intro_3": "Выйграй один из",
+      "intro_4": "Классных призов от Maccoffee!",
+      "bracelet": "ФИТНЕС БРАСЛЕТ",
+      "psp": "ИГРОВАЯ КОНСОЛЬ",
+      "set": "ПОДАРОЧНЫЙ НАБОР MACCOFFEE"
     }
   }
 }
